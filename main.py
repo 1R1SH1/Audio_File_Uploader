@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from core.config.settings import Settings
-from routes.auth import router as auth_router
-from routes.files import router as files_router
+from api.routes.auth import router as auth_router
+from api.routes.files import router as files_router
 
 settings = Settings()
 app = FastAPI()
