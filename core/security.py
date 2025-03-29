@@ -5,6 +5,8 @@ from datetime import datetime, timedelta
 from typing import Optional
 import os
 
+from models import user
+
 # Configuration
 SECRET_KEY = os.getenv("SECRET_KEY")
 ALGORITHM = "HS256"
